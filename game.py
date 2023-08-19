@@ -35,7 +35,7 @@ def action_a():
     return {'clay': 1, 'reed': 1, 'wood': 1}
 
 def action_b_1(pasteur_type):
-    if AgricolaAI.reset(tiles)
+    # if AgricolaAI.reset(tiles)
 
     return {'price': [x],'pasteur': pasteur_number, 'stable': z}
 
