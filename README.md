@@ -13,10 +13,11 @@ This project uses AI to optimize strategies for the Agricola board game.
 
 1. **Clone the repository:**
    git clone https://github.com/tdnguy16/Agricola_AI.git
+   **next**
    cd Agricola_AI
-2. **Create a virtual environment:**
+3. **Create a virtual environment:**
    python -m venv venv
-3. **Activate the virtual environment:**
+4. **Activate the virtual environment:**
    venv\Scripts\activate
-4. **Install the dependencies:**
+5. **Install the dependencies:**
    pip install -r requirements.txt
