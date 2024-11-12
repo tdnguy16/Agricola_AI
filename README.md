@@ -177,11 +177,11 @@ Summarize your key findings as you progress:
 ---
 
 ## References
-- List citations, tools, or resources used in your research.
-  - Author(s), Title, Year, DOI/Link, etc.
+<!-- - List citations, tools, or resources used in your research.
+  - Author(s), Title, Year, DOI/Link, etc. -->
 
 ---
-
+<!--
 ### Tips for Maintaining Your Research Journal in README.md
 1. **Use Markdown Features**:
    - Headers (`#`, `##`, `###`) to organize content.
@@ -202,3 +202,4 @@ Summarize your key findings as you progress:
      ```
 
 By keeping a well-structured README, you create a professional, transparent, and organized record of your research journey. It can also be easily shared with collaborators or used as part of your portfolio!
+-->
