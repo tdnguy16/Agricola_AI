@@ -46,6 +46,7 @@ Use this section to track progress regularly. For example:
   - Begin model implementation.
 
 ![Pic](Charts/General_2/General_2_Agent_Actions_Levels_training round 2.png)
+https://github.com/tdnguy16/Agricola_AI/blob/master/Charts/General_10/General_10_Agent_Actions_Levels_training%20round%202.png
 
 ### Week 2 (MM/DD/YYYY - MM/DD/YYYY)
 - **Tasks Completed**:
