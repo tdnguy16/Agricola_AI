@@ -31,7 +31,7 @@ Document your research process:
 - **Data**: Description of datasets, sources, or sample groups.
 
 ---
-
+<!--
 ## Weekly Logs
 Use this section to track progress regularly. For example:
 
@@ -55,6 +55,7 @@ Use this section to track progress regularly. For example:
   - Perform exploratory data analysis (EDA).
 
 ---
+-->
 
 ## Findings and Insights
 Summarize your key findings as you progress:
