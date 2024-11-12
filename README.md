@@ -86,6 +86,7 @@ Summarize your key findings as you progress:
 </table>
   - Compared to other training model, model 7 shows the agent had fairly low points and was gradually outperformed by partners. The reason is the agent was set to explore new strategy (entropy = 5.467057108921686e-01) while the partners stayed strict to exploitation of learned ones (entropy = 5.467057108921686e-05). Even though the result seems disappointing, it might be a good way to improve the agent's ability once it learned to beat old tricks. Though this could take more time to train. 
 
+
 2. **Sheeps**:
   <table>
   <tr>
@@ -112,6 +113,33 @@ Summarize your key findings as you progress:
   </tr>
 </table>
   - The partners seemed to be more successful than the agent in gathering sheeps. Although the agent always started strong on this (by staying strict to the learned strategies), the partners with higher entropy may have found the way to improve. In the model 8, the agent seemed to fall behind, while in model 10, with more layers of policy and value network (3x3 compared to 2x2 of previous models), the agent realized how competitive the partners are and tried to catch up. This may imply that having more layers will give the agent more flexibility and training.
+
+3. **Pasteur 2**:
+  <table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/81af07f8-cb17-40fa-895a-81bdbf0e6e77" width="400"/><br/>
+      <b>Model 6</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d2ae1123-5e79-4fa2-bd10-e22e2b6d889d" width="400"/><br/>
+      <b>Model 7</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/21b7d9a6-7bdf-4340-9546-c0447b07aa45" width="400"/><br/>
+      <b>Model 8</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/07c16410-3f44-49d3-8120-efe37cf098c8" width="400"/><br/>
+      <b>Model 9</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1b52bbdd-1c27-4281-ae2b-7b51bd86bc89" width="400"/><br/>
+      <b>Model 10</b>
+    </td>
+  </tr>
+</table>
+  - This aligns with the result of the surge of sheeps in model 8 and 10. The partners went hard on pasteurs 2 to store the cattle. This means the partners are now capable of making level 3 moves where they need to have enough woods to by enough pasteurs to store more animals.
 
 ---
 
