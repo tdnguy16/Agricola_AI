@@ -9,10 +9,9 @@
 ## Table of Contents
 1. [Research Background](#research-background)
 2. [Methodology](#methodology)
-3. [Weekly Logs](#weekly-logs)
-4. [Findings and Insights](#findings-and-insights)
-5. [Future Work](#future-work)
-6. [References](#references)
+3. [Findings and Insights](#findings-and-insights)
+4. [Future Work](#future-work)
+5. [References](#references)
 
 ---
 
@@ -31,31 +30,6 @@ Document your research process:
 - **Data**: Description of datasets, sources, or sample groups.
 
 ---
-<!--
-## Weekly Logs
-Use this section to track progress regularly. For example:
-
-### Week 1 (MM/DD/YYYY - MM/DD/YYYY)
-- **Tasks Completed**:
-  - Read research papers on [topic].
-  - Developed initial hypotheses.
-- **Challenges**:
-  - Difficulty finding data related to [specific aspect].
-- **Next Steps**:
-  - Explore additional data sources.
-  - Begin model implementation.
-
-### Week 2 (MM/DD/YYYY - MM/DD/YYYY)
-- **Tasks Completed**:
-  - Collected data from [source].
-  - Cleaned and preprocessed data.
-- **Insights**:
-  - Found correlations between [variable A] and [variable B].
-- **Next Steps**:
-  - Perform exploratory data analysis (EDA).
-
----
--->
 
 ## Findings and Insights
 Summarize your key findings as you progress:
