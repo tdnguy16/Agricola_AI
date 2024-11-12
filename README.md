@@ -153,7 +153,7 @@ Summarize your key findings as you progress:
       <b>Model 7</b>
     </td>
     <td align="center">
-      <img src=https://github.com/user-attachments/assets/7ea211f9-e7f6-43e7-a2f0-5f1d469b8cb5"" width="400"/><br/>
+      <img src="https://github.com/user-attachments/assets/7ea211f9-e7f6-43e7-a2f0-5f1d469b8cb5" width="400"/><br/>
       <b>Model 8</b>
     </td>
     <td align="center">
