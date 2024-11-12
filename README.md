@@ -140,6 +140,60 @@ Summarize your key findings as you progress:
 </table>
   - This aligns with the result of the surge of sheeps in model 8 and 10. The partners went hard on pasteurs 2 to store the cattle. This means the partners are now capable of making level 3 moves where they need to have enough woods to by enough pasteurs to store more animals.
 
+4. **Farmer**:
+  <table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e87f7cf8-8328-4f47-986c-ad71a7965f03" width="400"/><br/>
+      <b>Model 6</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/bc3bfdb7-125d-4a74-9cb8-ff4db8b8fc9e" width="400"/><br/>
+      <b>Model 7</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c2ab42d4-3a6c-4dbd-8433-8adbcf7099bf" width="400"/><br/>
+      <b>Model 8</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/3e691f34-8126-468c-9e70-53de93c8e69a" width="400"/><br/>
+      <b>Model 9</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/7b9cb998-a969-47ec-afe4-1998d9305a40" width="400"/><br/>
+      <b>Model 10</b>
+    </td>
+  </tr>
+</table>
+  - The agent did a good job of getting the most farmers. Especially from round 12, the number of farmers increased big time. This is due to the availability of action 12 where the players get farmers for free, with out the need of rooms.
+
+5. **Rooster**:
+  <table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/4bb42b94-9909-4fd1-a3bd-f36d3fc88ac2" width="400"/><br/>
+      <b>Model 6</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/7f3030ce-2209-497d-8423-9927435d0716" width="400"/><br/>
+      <b>Model 7</b>
+    </td>
+    <td align="center">
+      <img src=https://github.com/user-attachments/assets/7ea211f9-e7f6-43e7-a2f0-5f1d469b8cb5"" width="400"/><br/>
+      <b>Model 8</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/58505c60-69fa-4d8a-9e9c-2829f476b0f2" width="400"/><br/>
+      <b>Model 9</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/eebee5c1-178e-485d-abab-6abe77ad55f0" width="400"/><br/>
+      <b>Model 10</b>
+    </td>
+  </tr>
+</table>
+  - The tube shape explains the fight of players for the roosters, especially from round 12. This is for getting free farmers, who gets to go 1st will be able to take action 12.
+
 ---
 
 ## Future Work
