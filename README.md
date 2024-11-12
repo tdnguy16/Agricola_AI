@@ -59,18 +59,12 @@ Use this section to track progress regularly. For example:
 ## Findings and Insights
 Summarize your key findings as you progress:
 - **Points**:
-  ![General_6_Points Over Training Rounds](https://github.com/user-attachments/assets/7fec3d41-2cc5-4da1-b7b3-ca00a1e653e1)
-  ![General_7_Points Over Training Rounds](https://github.com/user-attachments/assets/75d4c591-117b-4e3d-8920-977ade64c0c8)
-  ![General_8_Points Over Training Rounds](https://github.com/user-attachments/assets/041e41c8-dafd-4be6-90a0-c54e00950cec)
-  ![General_9_Points Over Training Rounds](https://github.com/user-attachments/assets/26774c62-e553-431a-9599-98260a201ba8)
-  ![General_10_Points Over Training Rounds](https://github.com/user-attachments/assets/8abe3c3e-44ba-45ac-b97c-1cfcb474f91d)
-
   <p align="center">
-  <img src="https://github.com/user-attachments/assets/7fec3d41-2cc5-4da1-b7b3-ca00a1e653e1" width="200"/>
-  <img src="https://github.com/user-attachments/assets/75d4c591-117b-4e3d-8920-977ade64c0c8" width="200"/>
-  <img src="https://github.com/user-attachments/assets/041e41c8-dafd-4be6-90a0-c54e00950cec" width="200"/>
-  <img src="https://github.com/user-attachments/assets/26774c62-e553-431a-9599-98260a201ba8" width="200"/>
-  <img src="https://github.com/user-attachments/assets/8abe3c3e-44ba-45ac-b97c-1cfcb474f91d" width="200"/>
+  <img src="https://github.com/user-attachments/assets/7fec3d41-2cc5-4da1-b7b3-ca00a1e653e1" width="400"/>
+  <img src="https://github.com/user-attachments/assets/75d4c591-117b-4e3d-8920-977ade64c0c8" width="400"/>
+  <img src="https://github.com/user-attachments/assets/041e41c8-dafd-4be6-90a0-c54e00950cec" width="400"/>
+  <img src="https://github.com/user-attachments/assets/26774c62-e553-431a-9599-98260a201ba8" width="400"/>
+  <img src="https://github.com/user-attachments/assets/8abe3c3e-44ba-45ac-b97c-1cfcb474f91d" width="400"/>
   </p>
   - Compared to other training model, model 7 shows the agent had fairly low points and was gradually outperformed by partners. The reason is the agent was set to explore new strategy (entropy = 5.467057108921686e-01) while the partners stayed strict to exploitation of learned ones (entropy = 5.467057108921686e-05). Even though the result seems disappointing, it might be a good way to improve the agent's ability once it learned to beat old tricks. Though this could take more time to train. 
 - **Final Results** (if applicable):
