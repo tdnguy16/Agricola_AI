@@ -84,10 +84,8 @@ Summarize your key findings as you progress:
     </td>
   </tr>
 </table>
-  - Compared to other training model, model 7 shows the agent had fairly low points and was gradually outperformed by partners. The reason is the agent was set to explore new strategy (entropy = 5.467057108921686e-01) while the partners stayed strict to exploitation of learned ones (entropy = 5.467057108921686e-05). Even though the result seems disappointing, it might be a good way to improve the agent's ability once it learned to beat old tricks. Though this could take more time to train. 
-
-<!-- Add an empty line here -->
-
+  - Compared to other training model, model 7 shows the agent had fairly low points and was gradually outperformed by partners. The reason is the agent was set to explore new strategy (entropy = 5.467057108921686e-01) while the partners stayed strict to exploitation of learned ones (entropy = 5.467057108921686e-05). Even though the result seems disappointing, it might be a good way to improve the agent's ability once it learned to beat old tricks. Though this could take more time to train.
+ 
 2. **Sheeps**:
   <table>
   <tr>
@@ -114,9 +112,7 @@ Summarize your key findings as you progress:
   </tr>
 </table>
   - The partners seemed to be more successful than the agent in gathering sheeps. Although the agent always started strong on this (by staying strict to the learned strategies), the partners with higher entropy may have found the way to improve. In the model 8, the agent seemed to fall behind, while in model 10, with more layers of policy and value network (3x3 compared to 2x2 of previous models), the agent realized how competitive the partners are and tried to catch up. This may imply that having more layers will give the agent more flexibility and training.
-
-<!-- Add an empty line here -->
-
+ 
 3. **Pasteur 2**:
   <table>
   <tr>
