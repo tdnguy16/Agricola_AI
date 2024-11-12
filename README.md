@@ -45,7 +45,7 @@ Use this section to track progress regularly. For example:
   - Explore additional data sources.
   - Begin model implementation.
 
-![Pic](G:/My Drive/Agricola_AI/Charts/General_2/General_2_Agent_Actions_Levels_training round 2.png)
+![Pic](Charts/General_2/General_2_Agent_Actions_Levels_training round 2.png)
 
 ### Week 2 (MM/DD/YYYY - MM/DD/YYYY)
 - **Tasks Completed**:
