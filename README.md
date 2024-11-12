@@ -1,8 +1,8 @@
 # Research Journal: [Project Title]
 
 ## Overview
-- **Research Focus**: Brief description of your research topic or problem statement.
-- **Objective**: Outline the goals or questions your research aims to address.
+- **Research Focus**: Using deep learning to train an agent who can play the Agricola boardgame relative "well". Then investigate the difference in gameplay results between competitive and collaborative players.
+- **Objective**: Achieve a foundation for using boardgame in business-related, system optimization course teaching.
 
 ---
 
@@ -58,7 +58,8 @@ Use this section to track progress regularly. For example:
 
 ## Findings and Insights
 Summarize your key findings as you progress:
-- **Preliminary Findings**:
+- **Points**:
+  ![General_6_Points Over Training Rounds](https://github.com/user-attachments/assets/7fec3d41-2cc5-4da1-b7b3-ca00a1e653e1)
   - Trends, patterns, or hypotheses validated or refuted.
 - **Final Results** (if applicable):
   - Present conclusions or summaries of data analysis.
