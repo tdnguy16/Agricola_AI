@@ -63,23 +63,23 @@ Summarize your key findings as you progress:
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/7fec3d41-2cc5-4da1-b7b3-ca00a1e653e1" width="400"/><br/>
-      <b>Chart 6</b>
+      <b>Model 6</b>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/75d4c591-117b-4e3d-8920-977ade64c0c8" width="400"/><br/>
-      <b>Chart 7</b>
+      <b>Model 7</b>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/041e41c8-dafd-4be6-90a0-c54e00950cec" width="400"/><br/>
-      <b>Chart 8</b>
+      <b>Model 8</b>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/26774c62-e553-431a-9599-98260a201ba8" width="400"/><br/>
-      <b>Chart 9</b>
+      <b>Model 9</b>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/8abe3c3e-44ba-45ac-b97c-1cfcb474f91d" width="400"/><br/>
-      <b>Chart 10</b>
+      <b>Model 10</b>
     </td>
   </tr>
 </table>
