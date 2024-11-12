@@ -1,31 +1,46 @@
-import matplotlib.pyplot as plt
 import random
+from enum import Enum
+from collections import namedtuple
+import numpy as np
+from collections import defaultdict
+import matplotlib.pyplot as plt
 
-# Sample data for 14 rounds
-rounds = list(range(1, 15))
+def count_action_levels(moves_total_levels, moves_total_names):
+    # Initialize a dictionary to count occurrences for each level
+    level_counts = defaultdict(int)
 
-# Initialize player states
-player1_state = {'clay': 0, 'reed': 0, 'wood': 0, 'grain': 0, 'food': 0, 'sheep': 0, 'boar': 0, 'cow': 0, 'begging': 0, 'rooster': 1, 'clay_conversion': 0, 'clay_room': 0, 'wood_room': 0, 'room_space': 2, 'livestock_space': 1, 'farmer': 2, 'livestock_slot': 0, 'grain_on_field': 0, 'pasteur_2': 0, 'pasteur_4': 0, 'pasteur_6': 0, 'pasteur_8': 0, 'stable': 0, 'field': 0}
-player2_state = {'clay': 0, 'reed': 0, 'wood': 0, 'grain': 0, 'food': 0, 'sheep': 0, 'boar': 0, 'cow': 0, 'begging': 0, 'rooster': 1, 'clay_conversion': 0, 'clay_room': 0, 'wood_room': 0, 'room_space': 2, 'livestock_space': 1, 'farmer': 2, 'livestock_slot': 0, 'grain_on_field': 0, 'pasteur_2': 0, 'pasteur_4': 0, 'pasteur_6': 0, 'pasteur_8': 0, 'stable': 0, 'field': 0}
-player3_state = {'clay': 0, 'reed': 0, 'wood': 0, 'grain': 0, 'food': 0, 'sheep': 0, 'boar': 0, 'cow': 0, 'begging': 0, 'rooster': 1, 'clay_conversion': 0, 'clay_room': 0, 'wood_room': 0, 'room_space': 2, 'livestock_space': 1, 'farmer': 2, 'livestock_slot': 0, 'grain_on_field': 0, 'pasteur_2': 0, 'pasteur_4': 0, 'pasteur_6': 0, 'pasteur_8': 0, 'stable': 0, 'field': 0}
-player4_state = {'clay': 0, 'reed': 0, 'wood': 0, 'grain': 0, 'food': 0, 'sheep': 0, 'boar': 0, 'cow': 0, 'begging': 0, 'rooster': 1, 'clay_conversion': 0, 'clay_room': 0, 'wood_room': 0, 'room_space': 2, 'livestock_space': 1, 'farmer': 2, 'livestock_slot': 0, 'grain_on_field': 0, 'pasteur_2': 0, 'pasteur_4': 0, 'pasteur_6': 0, 'pasteur_8': 0, 'stable': 0, 'field': 0}
+    # Count occurrences of each action's level
+    for action in moves_total_names:
+        level = moves_total_levels.get(action, None)  # Get level of the action
+        if level is not None:
+            level_counts[level] += 1  # Increment count for that level
 
-# Initialize empty lists to store the values for each player and resource
-player_states = [player1_state, player2_state, player3_state, player4_state]
-resources = ['clay', 'reed', 'wood', 'grain', 'food', 'sheep', 'boar', 'cow', 'begging', 'rooster', 'clay_conversion', 'clay_room', 'wood_room', 'room_space', 'livestock_space', 'farmer', 'livestock_slot', 'grain_on_field', 'pasteur_2', 'pasteur_4', 'pasteur_6', 'pasteur_8', 'stable', 'field']
+    return dict(level_counts)  # Convert to regular dict for cleaner output
 
-# Randomly generate data for each resource over 14 rounds for simplicity
-data = {player: {resource: [random.randint(0, 10) for _ in rounds] for resource in resources} for player in range(1, 5)}
+moves_total_levels = {'action_a': 1, 'action_b': 2, 'action_c': 2,
+                              'action_d': 1, 'action_e': 1, 'action_f': 1,
+                              'action_g': 3, 'action_h': 1, 'action_i': 1, 'action_j': 1, 'action_k': 1, 'action_l': 1,
+                              'action_m': 1, 'action_n': 1, 'action_o': 1, 'action_1': 2, 'action_2': 2, 'action_3': 2,
+                              'action_4': 3, 'action_5': 3, 'action_6': 1, 'action_7': 2, 'action_8': 1, 'action_9': 2,
+                              'action_10': 2, 'action_11': 2, 'action_12': 1, 'action_13': 3, 'action_14': 1}
 
-# Plotting the data
-fig, axes = plt.subplots(len(resources), 1, figsize=(12, len(resources) * 3), sharex=True)
+moves_total_names = ['action_a', 'action_i', 'action_i', 'action_b', 'action_c', 'action_13', 'action_13']
 
-for idx, resource in enumerate(resources):
-    for player in range(1, 5):
-        axes[idx].plot(rounds, data[player][resource], label=f'Player {player}')
-    axes[idx].set_ylabel(resource)
-    axes[idx].legend(loc='upper right')
+level_occurrences = count_action_levels(moves_total_levels, moves_total_names)
+print(level_occurrences)
 
-axes[-1].set_xlabel('Rounds')
-plt.tight_layout()
-plt.show()
+
+def plot_level_occurrences(level_occurrences):
+    levels = list(level_occurrences.keys())
+    occurrences = list(level_occurrences.values())
+
+    plt.figure(figsize=(8, 6))
+    plt.bar(levels, occurrences)
+    plt.xlabel("Action Level")
+    plt.ylabel("Occurrences")
+    plt.title("Occurrences of Different Action Levels")
+    plt.xticks(levels)  # Set x-ticks to show each level
+    plt.show()
+
+
+plot_level_occurrences(level_occurrences)
