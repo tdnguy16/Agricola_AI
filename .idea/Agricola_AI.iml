@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/venv" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv1" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.12 (Agricola_AI)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.10 (Agricola_AI)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
