@@ -170,8 +170,8 @@ Summarize your key findings as you progress:
 ---
 
 ## Future Work
-- Outline areas for further exploration.
-- Describe ongoing experiments or steps to refine your research.
+- Further improve the agents for higher performance.
+- Distinctively, train 2 types of agent: competitive, collaborative.
 
 ---
 
