@@ -1,4 +1,4 @@
-# Research Journal: [Project Title]
+# Research Journal: Using the Board game Agricola to study players' competitive and collaborative behaviors
 
 ## Overview
 - **Research Focus**: Using deep learning to train an agent who can play the Agricola boardgame relative "well". Then investigate the difference in gameplay results between competitive and collaborative players.
