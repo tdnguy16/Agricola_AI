@@ -1,4 +1,4 @@
-# Research Journal: Using the Board game Agricola to study players' competitive and collaborative behaviors
+# Using the board game Agricola to study players' competitive and collaborative behaviors
 
 ## Overview
 - **Research Focus**: Using deep learning to train an agent who can play the Agricola boardgame relative "well". Then investigate the difference in gameplay results between competitive and collaborative players.
@@ -17,17 +17,16 @@
 
 ## Research Background
 Provide background information, including:
-- What inspired this research?
-- Key concepts or theories.
-- Literature review summaries or related work.
+- My former advisor Prof. Yisu Chen uses board games for teaching in my Master program. I found that super novel and got the idea of combining the power of machine learning and board games in scientific studies. The research topics can be business or industrial engineering related (competition, collaboration, dynamic pricing, optimization...)
+- Being competitive or collaborative in a social environment, which will give the larger benefits to the society? We hope to demonstrate this by simulate players behaviors in Agricola.
+- After finishing the backend of of Agricola, we started training the agents to play the game. We have seen some improvements made by the agents though there is still a lot to explore.
 
 ---
 
 ## Methodology
 Document your research process:
-- **Approach**: Qualitative, quantitative, mixed-methods, etc.
-- **Tools**: Software, frameworks, or models used.
-- **Data**: Description of datasets, sources, or sample groups.
+- **Approach**: Reinforcement learning
+- **Tools**: Python, stable_baselines3, Agricola game
 
 ---
 
