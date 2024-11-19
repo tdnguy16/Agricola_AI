@@ -1,6 +1,7 @@
 # Using the board game Agricola to study players' competitive and collaborative behaviors
 
 ## Overview
+*In collaboration with Prof. Yi-Su Chen, COB, University of Michigan-Dearborn*
 - **Research Focus**: Using deep learning to train an agent who can play the Agricola boardgame relative "well". Then investigate the difference in gameplay results between competitive and collaborative players.
 - **Objective**: Achieve a foundation for using boardgame in business-related, system optimization course teaching.
 
