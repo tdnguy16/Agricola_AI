@@ -3840,15 +3840,15 @@ if training == True:
     resource_player4 = defaultdict(dict)
 
     # Training parameters
-    model_name = "General_7_c"
-    starting_model = 'General_7_b_4'
+    model_name = "General_10_d"
+    starting_model = 'General_10_b_4'
     times_steps = 1000000
     training_rounds = 4
     partner_entropy = 5.467057108921686e-05
     partner_learning_rate = 1.1571376087582738e-05
     agent_entropy = 5.467057108921686e-01
     agent_learning_rate = 1.1571376087582738e-05
-    custom_arch = [dict(pi=[64, 64, 64], vf=[64, 64, 64])]
+    custom_arch = [dict(pi=[64, 64, 64, 64, 64, 64], vf=[64, 64, 64, 64, 64, 64])]
 
     # Define a custom policy that uses the specified architecture
     class CustomActorCriticPolicy(ActorCriticPolicy):
@@ -3929,9 +3929,9 @@ if training == True:
         partner_action_round_13 = []
         partner_action_round_14 = []
 
-        partner_model = PPO.load(f"E:\\Agricola\\{model_name}_{training_round}", env=AgricolaEnv())
-        partner_model.ent_coef = partner_entropy
-        partner_model.learning_rate = partner_learning_rate
+        # partner_model = PPO.load(f"E:\\Agricola\\{model_name}_{training_round}", env=AgricolaEnv())
+        # partner_model.ent_coef = partner_entropy
+        # partner_model.learning_rate = partner_learning_rate
 
         env = AgricolaEnv(partner_model=partner_model)
 
@@ -4020,17 +4020,12 @@ if training == True:
 # ======================================================================================================================
 # GAME TEST
 # Run multiple iterations
-parameters_to_show = ['sheep', 'boar', 'wood', 'point']
+# parameters_to_show = ['sheep', 'boar', 'wood', 'point']
 # run_multiple_iterations(100, parameters_to_show, agent_model_name="(NEW)_ppo_agricola_valid_action", partner_model_name="ppo_agricola_valid_action")
 
 # plt.show()
 
-### Checked actions
-# Harvesting
-# Action 5
-
-### Finish checking resources
-
+# ======================================================================================================================
 ### Training procedures
 # 10,000 iterations for base model, no training partner
 # 10 rounds of 10,000 iter for valid actions, then 40 rounds for other rewards
@@ -4137,9 +4132,10 @@ parameters_to_show = ['sheep', 'boar', 'wood', 'point']
 # agent_learning_rate = 1.1571376087582738e-05
 # custom_arch = [dict(pi=[64, 64, 64], vf=[64, 64, 64])]
 
-# Keep the agent more creative in find the optimal strategy, but used different model for partners, it may get lower points at first but hopefully get better after some trainings
-# model_name = "General_7_d"
-# starting_model = 'General_7_c_4'
+# Keep the agent more creative in find the optimal strategy, but used high-performce model (high points) for partners, it may get lower points at first but hopefully get better after some trainings
+# The partners now don't get updated after each training, but rather stay the same through out the whole training
+# model_name = "General_10_a"
+# starting_model = 'General_10_4'
 # times_steps = 1000000
 # training_rounds = 4
 # partner_entropy = 5.467057108921686e-05
@@ -4147,5 +4143,41 @@ parameters_to_show = ['sheep', 'boar', 'wood', 'point']
 # agent_entropy = 5.467057108921686e-01
 # agent_learning_rate = 1.1571376087582738e-05
 # custom_arch = [dict(pi=[64, 64, 64], vf=[64, 64, 64])]
+
+# Keep the agent more creative in find the optimal strategy, but used high-performce model (high points) for partners, it may get lower points at first but hopefully get better after some trainings
+# The partners now don't get updated after each training, but rather stay the same through out the whole training
+# model_name = "General_10_b"
+# starting_model = 'General_10_a_4'
+# times_steps = 1000000
+# training_rounds = 4
+# partner_entropy = 5.467057108921686e-05
+# partner_learning_rate = 1.1571376087582738e-05
+# agent_entropy = 5.467057108921686e-01
+# agent_learning_rate = 1.1571376087582738e-05
+# custom_arch = [dict(pi=[64, 64, 64], vf=[64, 64, 64])]
+
+# Increase deep layers to 4x4, Keep the agent more creative in find the optimal strategy, but used high-performce model (high points) for partners, it may get lower points at first but hopefully get better after some trainings
+# The partners now don't get updated after each training, but rather stay the same through out the whole training
+# model_name = "General_10_c"
+# starting_model = 'General_10_b_4'
+# times_steps = 1000000
+# training_rounds = 4
+# partner_entropy = 5.467057108921686e-05
+# partner_learning_rate = 1.1571376087582738e-05
+# agent_entropy = 5.467057108921686e-01
+# agent_learning_rate = 1.1571376087582738e-05
+# custom_arch = [dict(pi=[64, 64, 64, 64], vf=[64, 64, 64, 64])]
+
+# Increase deep layers to 6x6, Keep the agent more creative in find the optimal strategy, but used high-performce model (high points) for partners, it may get lower points at first but hopefully get better after some trainings
+# The partners now don't get updated after each training, but rather stay the same through out the whole training
+# model_name = "General_10_d"
+# starting_model = 'General_10_b_4'
+# times_steps = 1000000
+# training_rounds = 4
+# partner_entropy = 5.467057108921686e-05
+# partner_learning_rate = 1.1571376087582738e-05
+# agent_entropy = 5.467057108921686e-01
+# agent_learning_rate = 1.1571376087582738e-05
+# custom_arch = [dict(pi=[64, 64, 64, 64, 64, 64], vf=[64, 64, 64, 64, 64, 64])]
 
 #TODO: Work on actions of each agent per round, to see the strategy more clearly
